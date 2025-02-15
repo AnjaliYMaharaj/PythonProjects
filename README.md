@@ -1,6 +1,6 @@
 # PythonProjects
 
-Welcome to my Python Learning Repository, mini projects using python will be added here.
+Welcome to my Python Learning Repository, projects created using python will be added here.
 
 Projects Added:
 
