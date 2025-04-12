@@ -6,3 +6,4 @@ Projects Added:
 
 - Band Name Generator
 - Password Generator
+- Quiz Game
