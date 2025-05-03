@@ -1,0 +1,41 @@
+# 🛡️ File Integrity Verification Using Hash Values
+
+## 📋 Project Overview
+In this lab, I acted as a Security Analyst to verify file integrity using cryptographic hashing. I used Linux commands to generate SHA-256 hashes for two similar files and compared them to check for any differences.
+
+---
+
+## 🎯 Learning Objectives
+- Understand how hash functions work
+- Generate hash values using `sha256sum`
+- Compare outputs using `cat` and `cmp` commands
+
+---
+
+## 🧪 Scenario
+Given two files, `file1.txt` and `file2.txt`, which appear visually identical, I needed to verify if they are truly the same or if any hidden differences exist.
+
+---
+
+## 🛠️ Tools Used
+- `sha256sum` – Generate SHA-256 hash values  
+- `cat` – Display file contents  
+- `cmp` – Byte-by-byte file comparison  
+- Bash Shell (Linux)
+
+---
+
+## 🔧 Lab Tasks
+
+### Task 1: Generate Hashes
+```bash
+cat file1.txt
+cat file2.txt
+sha256sum file1.txt
+sha256sum file2.txt
+
+sha256sum file1.txt >> file1hash
+sha256sum file2.txt >> file2hash
+cat file1hash
+cat file2hash
+cmp file1hash file2hash
