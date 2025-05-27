@@ -8,3 +8,4 @@ Projects Added:
 - Password Generator
 - Quiz Game
 - File Integrity Verification Using Hash Values
+- Folder Backup Automation Script (Python)
