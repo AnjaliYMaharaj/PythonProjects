@@ -1,6 +1,6 @@
-# Cybersecurity Projects
+# Python Projects
 
-Welcome to my Cybersecurity Learning Repository.
+Welcome to my Python Learning Repository.
 
 Projects Added:
 
@@ -9,3 +9,4 @@ Projects Added:
 - Quiz Game
 - File Integrity Verification Using Hash Values
 - Folder Backup Automation Script (Python)
+- Email Daily News from API
